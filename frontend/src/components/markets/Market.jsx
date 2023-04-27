@@ -1,5 +1,9 @@
 import React from 'react'
 import {BiBitcoin} from 'react-icons/bi'
+import {FaEthereum} from 'react-icons/fa'
+import {TbBrandAirbnb} from 'react-icons/tb'
+import {GiGoldShell} from 'react-icons/gi'
+import {FiGitlab} from 'react-icons/fi'
 import phone from '../../images/phone.png'
 import './market.css'
 
@@ -16,31 +20,31 @@ function Market() {
             </div>
   
             <div className="sd-f2">
-              <p className="al12"><BiBitcoin className='btcd'/> USDT</p>
+              <p className="al12"><BiBitcoin className='btcd'/> BTC</p>
               <p className="al12 txt-center">$28076</p>
               <p className="al12-g txt-center">+7.8%</p>
               <p className="al12 txt-right">$29.80m</p>
             </div>
             <div className="sd-f2">
-              <p className="al12"><BiBitcoin className='btcd'/> USDC</p>
+              <p className="al12"><FaEthereum className='btcd'/> ETH</p>
               <p className="al12 txt-center">$28076</p>
               <p className="al12-g txt-center">+7.8%</p>
               <p className="al12 txt-right">$29.80m</p>
             </div>
             <div className="sd-f2">
-              <p className="al12"><BiBitcoin className='btcd'/> BUSD</p>
+              <p className="al12"><TbBrandAirbnb className='btcd'/> BUSD</p>
               <p className="al12 txt-center">$28076</p>
               <p className="al12-g txt-center">+7.8%</p>
               <p className="al12 txt-right">$29.80m</p>
             </div>
             <div className="sd-f2">
-              <p className="al12"><BiBitcoin className='btcd'/> SOL</p>
+              <p className="al12"><GiGoldShell className='btcd'/> SOL</p>
               <p className="al12 txt-center">$28076</p>
               <p className="al12-g txt-center">+7.8%</p>
               <p className="al12 txt-right">$29.80m</p>
             </div>
             <div className="sd-f2">
-              <p className="al12"><BiBitcoin className='btcd'/> XRP</p>
+              <p className="al12"><FiGitlab className='btcd'/> XRP</p>
               <p className="al12 txt-center">$28076</p>
               <p className="al12-g txt-center">+7.8%</p>
               <p className="al12 txt-right">$29.80m</p>

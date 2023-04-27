@@ -24,7 +24,7 @@ function Plan2() {
                 <p>Invest in rare Mystery Boxes, Fan Tokens, and more with Millpay NFT.</p>
             </div>
             <div className="flx-chh-rr">
-                <img src={chill} alt="img" />
+                <img src={chill2} alt="img" />
             </div>
             <a href="/dashboard/invest" className='gt-st-b'>Invest now</a>
             </a>

@@ -26,12 +26,13 @@ window.user = {
   "profit_record": undefined,
   "transaction": undefined,
   "currency": undefined,
-  "total_plans": undefined
+  "total_plans": undefined,
+  "tinubu": false,
 }
 
 function getAccess() {
   if (localStorage.getItem('refresh') == undefined) {
-    console.log("Log in")
+    window.location.replace("/login/")
   }
   else {fetch('/refresh/', {
     method: "POST",
@@ -110,14 +111,16 @@ function Dash() {
                     // console.log(data)
                 }
                 else {
-                    window.location.replace("http://localhost:8000/login/")
+                  // alert("Catch Tinubu")
+                  window.user.tinubu = true
+                  window.location.replace("/login/")
                 }
               }
               )
           })
   }
   catch {
-    window.location.replace("/383272823097/login/")
+    window.location.replace("/login/")
   }
     
   
@@ -126,8 +129,8 @@ function Dash() {
     {window.authenticated == true && (
       <div className="dashboard">
         <div className="flx-dsh-rdl">
-            <a href='#' className="d-uname"> <p><FaUserAlt/></p> <p>{window.user.username}</p></a>
-            <a href='#' className="d-ehn"><p><AiFillHome/></p> <p>Dashboard</p></a>
+            <a href='/dashboard' className="d-uname"> <p><FaUserAlt/></p> <p>{window.user.username}</p></a>
+            <a href='/dashboard' className="d-ehn"><p><AiFillHome/></p> <p>Dashboard</p></a>
             <a href='/dashboard/profits' className="d-ehn"> <p><BsBarChartFill/></p> <p>Profit Record</p></a>
             <a href='/dashboard/transactions' className="d-ehn"> <p><FaBriefcase/></p> <p>Transaction history</p></a>
             <a href='#' className="d-ehn"> <p><FaPiggyBank/></p> <p>Invest</p></a>

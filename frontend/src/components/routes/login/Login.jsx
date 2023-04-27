@@ -48,6 +48,7 @@ function Login() {
     useEffect(() => {
     if (localStorage.getItem('access') != undefined) {
       // setLoggedIn = true
+      if (window.user.tinubu = false)
       window.location.replace("/dashboard/")
     }
     }, [])
