@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ['bigthick84.pythonanywhere.com']
 
 # Application definition
 
-INSTALLED_APPS = 
+INSTALLED_APPS = [
     'route.apps.RouteConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -125,8 +125,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Base url to serve media files  
 MEDIA_URL = '/media/'  

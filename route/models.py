@@ -3,7 +3,6 @@ from enum import unique
 from django.db import models
 import random, string
 from django.contrib.auth.models import User
-from traitlets import default
 import datetime
 # Create your models here.
 
