@@ -8,7 +8,7 @@ function Plan2() {
     <div className="plan2">
         <h1>Explore endless possibilities with Millpay</h1>
         <div className="flx-pl2">
-            <a href='#' className="flx-pl2-cnt">
+            <a href='/dashboard' className="flx-pl2-cnt">
                 <div className="flx-chh-ll">
                 <h2>Dive into the world of NFTs</h2>
                 <p>Invest in rare Mystery Boxes, Fan Tokens, and more with Millpay NFT.</p>
@@ -16,7 +16,17 @@ function Plan2() {
             <div className="flx-chh-rr">
                 <img src={chill} alt="img" />
             </div>
-            <a href="#" className='gt-st-b'>Invest now</a>
+            <a href="/dashboard/invest" className='gt-st-b'>Invest now</a>
+            </a>
+            <a href='/dashboard' className="flx-pl2-cnt">
+                <div className="flx-chh-ll">
+                <h2>Dive into the world of NFTs</h2>
+                <p>Invest in rare Mystery Boxes, Fan Tokens, and more with Millpay NFT.</p>
+            </div>
+            <div className="flx-chh-rr">
+                <img src={chill} alt="img" />
+            </div>
+            <a href="/dashboard/invest" className='gt-st-b'>Invest now</a>
             </a>
             <a href='#' className="flx-pl2-cnt">
                 <div className="flx-chh-ll">
@@ -26,17 +36,7 @@ function Plan2() {
             <div className="flx-chh-rr">
                 <img src={chill} alt="img" />
             </div>
-            <a href="#" className='gt-st-b'>Invest now</a>
-            </a>
-            <a href='#' className="flx-pl2-cnt">
-                <div className="flx-chh-ll">
-                <h2>Dive into the world of NFTs</h2>
-                <p>Invest in rare Mystery Boxes, Fan Tokens, and more with Millpay NFT.</p>
-            </div>
-            <div className="flx-chh-rr">
-                <img src={chill} alt="img" />
-            </div>
-            <a href="#" className='gt-st-b'>Invest now</a>
+            <a href="/dashboard/invest" className='gt-st-b'>Invest now</a>
             </a>
             
         </div>

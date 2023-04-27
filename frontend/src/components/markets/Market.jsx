@@ -48,7 +48,7 @@ function Market() {
 
           <div className="prm-ctn">
             <h3 className="promise-1 white">Sign up and build your own portfolio for free!</h3>
-          <a href="#" className='gt-st-b'>Get Started </a>
+          <a href="/register" className='gt-st-b'>Get Started </a>
           </div>
 
           <div className="bb-nn-cc">
@@ -73,7 +73,7 @@ function Market() {
                   <h3 className='white'>Start trading</h3>
                   <p>You're good to go! Buy/sell crypto, set up recurring buys for your investments, and discover what Millpay has to offer. </p>
                 </div>
-                <a href="#" className='gt-st-b'>Get started</a>
+                <a href="/register" className='gt-st-b'>Get started</a>
               </div>
               <div className="bb-ll"><img src={phone} alt="img" /></div>
                 

@@ -58,7 +58,7 @@ function Plan() {
                 </div>
             </div>
         </div>
-        <a href="#" className='gt-st-b'>Start earning</a>
+        <a href="/register" className='gt-st-b'>Start earning</a>
 
         <div className="new-d-faq">
             <h1 className='white'>Need Help?</h1>
@@ -83,7 +83,7 @@ function Plan() {
         
         <div className="er-td">
             <h1 className='white'>Start earning today</h1>
-            <a href="#" className='gt-st-b'>Sign up now</a>
+            <a href="/register" className='gt-st-b'>Sign up now</a>
         </div>
         </div>
         

@@ -13,7 +13,7 @@ function Hbody() {
                 <h1 className='white'>Buy, Trade, Invest in 20+ cryptocurrencies on MillPay</h1>
                 <p className='pdp-1'><a href="#" className='white'>Trade Bitcoin for free</a> </p>
                 <p className='pdp-1'><a href="#" className='white'>Invest in any crypto of your choice</a></p>
-                <button><h3>Sign up with Email or Phone</h3> </button>
+                <button><h3> <a href="/register" className='black'>Sign up with Email or Phone</a></h3> </button>
                 </div>
             </div>
           <div className="sassa white">

@@ -15,16 +15,16 @@ function Header() {
 
       <div className="flex-cd">
         <div className="header-n-bar">
-        <a href='#' className="h-title"><img src={logo} alt=" " /><h2 href='#' >MILLPAY</h2>  </a>
+        <a href='/' className="h-title"><img src={logo} alt=" " /><h2 href='#' >MILLPAY</h2>  </a>
       </div>
 
         <div className="flex-rd">
           <div className="fll">
-            <a href="#" className="rd-t">Buy Crypto</a>
-            <a href="#" className="rd-t">Markets</a>
-            <a href="#" className="rd-t">Trade</a>
-            <a href="#" className="rd-t">Loans</a>
-            <a href="#" className="rd-t">Earn</a>
+            <a href="/dashboard/invest" className="rd-t">Buy Crypto</a>
+            <a href="/dashboard" className="rd-t">Markets</a>
+            <a href="/dashboard/invest" className="rd-t">Trade</a>
+            <a href="/404" className="rd-t">Loans</a>
+            <a href="/404" className="rd-t">Earn</a>
           </div>
 
         </div>
