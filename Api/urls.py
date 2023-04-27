@@ -14,7 +14,7 @@ urlpatterns = [
     path('verify/', TokenVerifyView().as_view(), name='token_verify'),
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/', include('route.urls')),
+    path('383272823097/', include('route.urls')),
     path('', include('frontend.urls'))
 ]
 

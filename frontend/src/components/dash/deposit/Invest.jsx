@@ -88,7 +88,7 @@ const Invest = () => {
           "s_proof": image
       }
 
-      fetch("http://localhost:8000/api/deposit/", {
+      fetch("/383272823097/deposit/", {
           method: "POST",
           headers: {
               'X-CSRFToken': getCookie('csrftoken'),

@@ -33,7 +33,7 @@ function getAccess() {
   if (localStorage.getItem('refresh') == undefined) {
     console.log("Log in")
   }
-  else {fetch('http://localhost:8000/refresh/', {
+  else {fetch('/refresh/', {
     method: "POST",
     headers: {
         'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ function getCookie(name) {
 function Dash() {
   const [verified, setVerified] = useState(false)
   try {
-    fetch('http://localhost:8000/api/details/', {
+    fetch('/383272823097/details/', {
           method: "GET",
           headers: {
               'Content-Type': 'application/json',
@@ -117,7 +117,7 @@ function Dash() {
           })
   }
   catch {
-    window.location.replace("http://localhost:8000/login/")
+    window.location.replace("/383272823097/login/")
   }
     
   

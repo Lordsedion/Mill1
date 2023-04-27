@@ -35,8 +35,6 @@ function hidePass() {
     } 
 }
 
-let url = 'http://localhost:8000/'
-
 function Login() {
   const [errors, setErrors] = useState(false)
   const [loggedIn, setLoggedIn] = useState(false)
@@ -45,12 +43,12 @@ function Login() {
   
   console.log(window.authenticated)
   if (getCookie('authenticated') == true) {
-    window.location.replace("http://localhost:8000/dashboard/")
+    window.location.replace("/dashboard/")
   }
     useEffect(() => {
     if (localStorage.getItem('access') != undefined) {
       // setLoggedIn = true
-      window.location.replace("http://localhost:8000/dashboard/")
+      window.location.replace("/dashboard/")
     }
     }, [])
 
@@ -63,7 +61,7 @@ function Login() {
           "password": password,
       }
 
-      fetch("http://localhost:8000/api/login/", {
+      fetch("/383272823097/login/", {
           method: "POST",
           headers: {
               'Content-Type': 'application/json',
@@ -81,7 +79,7 @@ function Login() {
             setCookie('authenticated', true, 7)
             localStorage.setItem("access", data["access"])
             localStorage.setItem("refresh", data["refresh"])
-            window.location.replace("http://localhost:8000/dashboard")
+            window.location.replace("/dashboard")
           }         
             else {
               setErrors(true)

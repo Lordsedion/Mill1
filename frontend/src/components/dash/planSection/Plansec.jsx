@@ -40,7 +40,7 @@ function Modal({name, mini, maxi, minRoi, maxRoi, dur, id}) {
     var formData = new FormData();
     formData.append("p_id", id);
 
-    fetch ("http://localhost:8000/api/subby/",{
+    fetch ("/383272823097/subby/",{
     method: "POST",
     headers: {
         'X-CSRFToken': getCookie('csrftoken'),

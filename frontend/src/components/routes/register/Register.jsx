@@ -51,7 +51,7 @@ function Register() {
       }
       if (document.getElementById("gg-o").checked != true) {return alert("Werey")}
       else {
-        fetch('http://localhost:8000/api/register/', {
+        fetch('/383272823097/register/', {
           method: "POST",
           headers: {
               'Content-Type': 'application/json',
@@ -65,7 +65,7 @@ function Register() {
                   localStorage.setItem('access', data['access'])
                   localStorage.setItem('refresh', data['refresh'])
                   setCookie('authenticated', true, 7)
-                  window.location.replace("http://localhost:8000/dashboard")
+                  window.location.replace("/dashboard")
                 }
                   // console.log(response.status)
               }
